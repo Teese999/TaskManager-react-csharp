@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.11.10" />
+    <PackageReference Include="Unity.Microsoft.DependencyInjection" Version="5.11.5" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManager.Data\TaskManager.Data.csproj" />
+    <ProjectReference Include="..\TaskManager.Buissines.Contracts\TaskManager.Buissines.Contracts.csproj" />
+    <ProjectReference Include="..\TaskManager.Data.Models\TaskManager.Data.Models.csproj" />
+  </ItemGroup>
+</Project>

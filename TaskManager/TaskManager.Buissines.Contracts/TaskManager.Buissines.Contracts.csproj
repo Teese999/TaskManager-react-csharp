@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManager.Data.Contracts\TaskManager.Data.Contracts.csproj" />
+    <ProjectReference Include="..\TaskManager.Buissines.Models\TaskManager.Buissines.Models.csproj" />
+  </ItemGroup>
+</Project>
